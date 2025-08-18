@@ -16,12 +16,12 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
-			enable: false, // Display the credit text of the banner image
-			text: "Welcome to RaitonVoid", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			enable: true, // Display the credit text of the banner image
+			text: "空色天絵 - NEO TOKYO NOIR", // Credit text to be displayed
+			url: "https://www.pixiv.net/en/artworks/111024784", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -46,6 +46,11 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "GitHub",
 			url: "https://github.com/RaitonRed", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
+		},
+		{
+			name: "Website",
+			url: "https://raitonlog.ir",
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -74,14 +79,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/RaitonRed",
 		},
 		{
-			name: "YouTube",
-			icon: "mdi:youtube",
-			url: "https://youtube.com/@ItzRaiton",
-		},
-		{
 			name: "Telegram",
 			icon: "ic:sharp-telegram",
-			url: "https://t.me/theglitchcity",
+			url: "https://t.me/theherodev",
 		},
 	],
 };
