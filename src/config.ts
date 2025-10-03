@@ -49,7 +49,7 @@ export const navBarConfig: NavBarConfig = {
 			external: true, // Show an external link icon and will open in a new tab
 		},
 		{
-			name: "Website",
+			name: "Blog",
 			url: "https://raitonlog.ir",
 			external: true, // Show an external link icon and will open in a new tab
 		},
@@ -81,7 +81,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Telegram",
 			icon: "ic:sharp-telegram",
-			url: "https://t.me/theherodev",
+			url: "https://t.me/astroboydaily",
 		},
 	],
 };
